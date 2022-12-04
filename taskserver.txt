@@ -1,0 +1,299 @@
+
+Aleksandr@LAPTOP-CNNMQDE3 MINGW64 ~
+$ ^[[200~ssh ec2-user@linux.telran-edu.de
+bash: $'\E[200~ssh': command not found
+
+Aleksandr@LAPTOP-CNNMQDE3 MINGW64 ~
+$ ~ssh ec2-user@linux.telran-edu.de
+bash: ~ssh: command not found
+
+Aleksandr@LAPTOP-CNNMQDE3 MINGW64 ~
+$ ssh ec2-user@linux.telran-edu.de
+Last login: Sat Dec  3 18:53:10 2022 from dslb-002-202-179-021.002.202.p
+
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+-bash: ./sleeper.sh: Permission denied
+[ec2-user@ip-172-31-33-20 shynbin]$ chmod 744 sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+./sleeper.sh: line 2: syntax error near unexpected token `in{1..10}'
+./sleeper.sh: line 2: `for run in{1..10}'
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+Sat Dec  3 19:12:11 UTC 2022
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+19:13:34
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:33:13
+19:33:13
+19:33:13
+19:33:13
+19:33:13
+19:33:13
+19:33:14
+19:33:14
+19:33:14
+19:33:14
+10
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:33:41
+19:33:41
+19:33:42
+19:33:42
+19:33:43
+19:33:43
+19:33:44
+19:33:44
+19:33:45
+19:33:45
+10
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:38:49
+19:38:49
+19:38:49
+19:38:49
+19:38:50
+19:38:50
+19:38:50
+19:38:50
+19:38:50
+19:38:50
+10
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:50:27
+19:50:27
+19:50:27
+19:50:27
+19:50:28
+19:50:28
+19:50:28
+19:50:28
+19:50:28
+19:50:28
+10
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+NAME="Amazon Linux"
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+19:51:33
+10
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+
+NAME="Amazon Linux"
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+19:54:41
+19:54:41
+19:54:41
+19:54:41
+19:54:41
+19:54:41
+19:54:41
+19:54:42
+19:54:42
+19:54:42
+10
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+
+Amazon
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+20:00:54
+20:00:54
+20:00:54
+20:00:54
+20:00:54
+20:00:54
+20:00:54
+20:00:55
+20:00:55
+20:00:55
+10
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+---------------------------
+Amazon
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ./sleeper.sh
+20:12:13
+20:12:13
+20:12:13
+20:12:13
+20:12:14
+20:12:14
+20:12:14
+20:12:14
+20:12:14
+20:12:14
+10
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+---------------------------
+Amazon
+[ec2-user@ip-172-31-33-20 shynbin]$ ls
+newsleep_100.txt  newsleep_62.txt  newsleep_75.txt  newsleep_88.txt
+newsleep_50.txt   newsleep_63.txt  newsleep_76.txt  newsleep_89.txt
+newsleep_51.txt   newsleep_64.txt  newsleep_77.txt  newsleep_90.txt
+newsleep_52.txt   newsleep_65.txt  newsleep_78.txt  newsleep_91.txt
+newsleep_53.txt   newsleep_66.txt  newsleep_79.txt  newsleep_92.txt
+newsleep_54.txt   newsleep_67.txt  newsleep_80.txt  newsleep_93.txt
+newsleep_55.txt   newsleep_68.txt  newsleep_81.txt  newsleep_94.txt
+newsleep_56.txt   newsleep_69.txt  newsleep_82.txt  newsleep_95.txt
+newsleep_57.txt   newsleep_70.txt  newsleep_83.txt  newsleep_96.txt
+newsleep_58.txt   newsleep_71.txt  newsleep_84.txt  newsleep_97.txt
+newsleep_59.txt   newsleep_72.txt  newsleep_85.txt  newsleep_98.txt
+newsleep_60.txt   newsleep_73.txt  newsleep_86.txt  newsleep_99.txt
+newsleep_61.txt   newsleep_74.txt  newsleep_87.txt  sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ls -lah
+total 12K
+drwxrwxr-x  2 ec2-user ec2-user 4.0K Dec  3 20:12 .
+drwxrwxr-x 24 ec2-user ec2-user 4.0K Nov 30 08:03 ..
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_100.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_50.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_51.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_52.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_53.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_54.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_55.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_56.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_57.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_58.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_59.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_60.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_61.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_62.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_63.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_64.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_65.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_66.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_67.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_68.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_69.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_70.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_71.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_72.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_73.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_74.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_75.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_76.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_77.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_78.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_79.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_80.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_81.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_82.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_83.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_84.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_85.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_86.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_87.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_88.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_89.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_90.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_91.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_92.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_93.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_94.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_95.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_96.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_97.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_98.txt
+-rw-rw-r--  1 ec2-user ec2-user    0 Dec  3 20:12 newsleep_99.txt
+-rwxr--r--  1 ec2-user ec2-user  227 Dec  3 20:12 sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ ls
+newsleep_100.txt  newsleep_62.txt  newsleep_75.txt  newsleep_88.txt
+newsleep_50.txt   newsleep_63.txt  newsleep_76.txt  newsleep_89.txt
+newsleep_51.txt   newsleep_64.txt  newsleep_77.txt  newsleep_90.txt
+newsleep_52.txt   newsleep_65.txt  newsleep_78.txt  newsleep_91.txt
+newsleep_53.txt   newsleep_66.txt  newsleep_79.txt  newsleep_92.txt
+newsleep_54.txt   newsleep_67.txt  newsleep_80.txt  newsleep_93.txt
+newsleep_55.txt   newsleep_68.txt  newsleep_81.txt  newsleep_94.txt
+newsleep_56.txt   newsleep_69.txt  newsleep_82.txt  newsleep_95.txt
+newsleep_57.txt   newsleep_70.txt  newsleep_83.txt  newsleep_96.txt
+newsleep_58.txt   newsleep_71.txt  newsleep_84.txt  newsleep_97.txt
+newsleep_59.txt   newsleep_72.txt  newsleep_85.txt  newsleep_98.txt
+newsleep_60.txt   newsleep_73.txt  newsleep_86.txt  newsleep_99.txt
+newsleep_61.txt   newsleep_74.txt  newsleep_87.txt  sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$ nano sleeper.sh
+[ec2-user@ip-172-31-33-20 shynbin]$

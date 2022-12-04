@@ -1,0 +1,20 @@
+#!/bin/bash
+for run in {1..10}
+do
+date +"%T"
+sleep 5
+done
+echo $run
+cat /etc/os-release
+echo "---------------------------"
+cat /etc/os-release | head -1 | cut -c7-12
+for create in {50..100}
+do
+touch newsleep_$create.txt
+done
+
+
+
+
+
+
