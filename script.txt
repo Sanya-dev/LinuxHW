@@ -1,0 +1,42 @@
+#!/bin/bash
+for run in {1..10}
+do
+DATE=$(date +"%H_%M_%S")
+echo $run
+echo $DATE
+touch $run'_'$DATE
+done
+
+cmod +x ./task.sh
+
+*/15 * * * * /opt/43_44_morning/shynbin/task.sh
+
+
+[ec2-user@ip-172-31-33-20 shynbin]$ ls
+10_201849         newsleep_54.txt  newsleep_79.txt
+10_20_20_19       newsleep_55.txt  newsleep_80.txt
+1_201849          newsleep_56.txt  newsleep_81.txt
+1_20_20_19        newsleep_57.txt  newsleep_82.txt
+2_201849          newsleep_58.txt  newsleep_83.txt
+2_20_20_19        newsleep_59.txt  newsleep_84.txt
+3_201849          newsleep_60.txt  newsleep_85.txt
+3_20_20_19        newsleep_61.txt  newsleep_86.txt
+4_201849          newsleep_62.txt  newsleep_87.txt
+4_20_20_19        newsleep_63.txt  newsleep_88.txt
+5_201849          newsleep_64.txt  newsleep_89.txt
+5_20_20_19        newsleep_65.txt  newsleep_90.txt
+6_201849          newsleep_66.txt  newsleep_91.txt
+6_20_20_19        newsleep_67.txt  newsleep_92.txt
+7_201849          newsleep_68.txt  newsleep_93.txt
+7_20_20_19        newsleep_69.txt  newsleep_94.txt
+8_201849          newsleep_70.txt  newsleep_95.txt
+8_20_20_19        newsleep_71.txt  newsleep_96.txt
+9_201849          newsleep_72.txt  newsleep_97.txt
+9_20_20_19        newsleep_73.txt  newsleep_98.txt
+newsleep_100.txt  newsleep_74.txt  newsleep_99.txt
+newsleep_50.txt   newsleep_75.txt  sleeper.sh
+newsleep_51.txt   newsleep_76.txt  task.sh
+newsleep_52.txt   newsleep_77.txt
+newsleep_53.txt   newsleep_78.txt
+[ec2-user@ip-172-31-33-20 shynbin]$ nano task.sh
+[ec2-user@ip-172-31-33-20 shynbin]$
